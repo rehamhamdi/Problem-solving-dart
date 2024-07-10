@@ -5,6 +5,6 @@ void main() {
   String? S = stdin.readLineSync();
   String? T = stdin.readLineSync();
   print('output');
-  print('${S?.split('').length}  ${T?.split('').length}');
+  print('${S?.length}  ${T?.length}');
   print('$S $T');
 }
